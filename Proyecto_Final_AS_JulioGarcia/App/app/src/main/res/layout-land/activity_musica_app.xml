@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicaApp">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/backgroundapp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="232dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/genius" />
+
+    <ImageButton
+        android:id="@+id/btn_play"
+        android:layout_width="63dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/reproducir"
+        android:onClick="playPause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/reproducir" />
+
+    <ImageButton
+        android:id="@+id/btn_detener"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/detener"
+        android:onClick="stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/detener" />
+
+    <ImageButton
+        android:id="@+id/btn_no_repetir"
+        android:layout_width="82dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="568dp"
+        android:layout_marginBottom="124dp"
+        android:background="@color/zxing_transparent"
+        android:onClick="repetir"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/no_repetir" />
+
+    <ImageButton
+        android:id="@+id/btn_anterior"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="224dp"
+        android:background="@android:drawable/ic_media_previous"
+        android:onClick="Anterior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_siguiente"
+        android:layout_width="62dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="220dp"
+        android:background="@android:drawable/ic_media_next"
+        android:onClick="Siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#294AFD"
+        android:hint="@string/btnVolver"
+        android:onClick="VolverMenu"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

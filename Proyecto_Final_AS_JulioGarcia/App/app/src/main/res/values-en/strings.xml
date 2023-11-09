@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JPragon</string>
+    <string name="btnInicioSesion"> Login</string>
+    <string name="btnRegistro">Sing In</string>
+    <string name="txtRegistrarse">Sing In</string>
+    <string name="txtIniciarSesion">Login</string>
+    <string name="btnInicioSesionAnonimo">Anonymous Login</string>
+    <string name="edtUsuario">User</string>
+    <string name="item1">Profile</string>
+    <string name="btnCerrarSesion">Log Out</string>
+    <string name="btnScan">Scanner</string>
+    <string name="btnVolver">Return</string>
+    <string name="edtContra">Password</string>
+    <string name="txtCopy">© Copyright JPragon, 2022</string>
+</resources>

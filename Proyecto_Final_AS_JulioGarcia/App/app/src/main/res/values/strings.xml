@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JPragon</string>
+    <string name="btnInicioSesion"> Iniciar Sesión</string>
+    <string name="btnRegistro">Registrar</string>
+    <string name="txtRegistrarse">Registro</string>
+    <string name="txtIniciarSesion">Inicio de sesión</string>
+    <string name="btnInicioSesionAnonimo">Inicio de Sesión Anónimo </string>
+    <string name="edtUsuario">Usuario</string>
+    <string name="item1">Perfil</string>
+    <string name="btnCerrarSesion">Cerrar Sesión</string>
+    <string name="btnScan">Scanner</string>
+    <string name="btnVolver">Volver</string>
+    <string name="edtContra">Contraseña</string>
+    <string name="txtCopy">© Copyright JPragon, 2022</string>
+</resources>
